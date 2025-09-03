@@ -1,0 +1,3 @@
+/mnt/hgfs/share/object/snake_station/build/CMakeFiles/snake_station.dir
+/mnt/hgfs/share/object/snake_station/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/share/object/snake_station/build/CMakeFiles/rebuild_cache.dir
