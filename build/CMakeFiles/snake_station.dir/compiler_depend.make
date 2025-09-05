@@ -298,6 +298,7 @@ CMakeFiles/snake_station.dir/src/game.cpp.o: /mnt/hgfs/share/object/snake_statio
   /mnt/hgfs/share/object/snake_station/inc/point.hpp \
   /mnt/hgfs/share/object/snake_station/inc/rect.hpp \
   /mnt/hgfs/share/object/snake_station/inc/screen.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/snake.hpp \
   /mnt/hgfs/share/object/snake_station/inc/touch.hpp \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/atomic_word.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/c++allocator.h \
@@ -322,6 +323,7 @@ CMakeFiles/snake_station.dir/src/game.cpp.o: /mnt/hgfs/share/object/snake_statio
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/concept_check.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/cpp_type_traits.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/cxxabi_forced.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/deque.tcc \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/exception_defines.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/exception_ptr.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/functexcept.h \
@@ -344,11 +346,14 @@ CMakeFiles/snake_station.dir/src/game.cpp.o: /mnt/hgfs/share/object/snake_statio
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/ptr_traits.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/range_access.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_algobase.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_construct.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_deque.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_function.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_funcs.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_types.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_pair.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_uninitialized.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/streambuf.tcc \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/streambuf_iterator.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stringfwd.h \
@@ -361,6 +366,7 @@ CMakeFiles/snake_station.dir/src/game.cpp.o: /mnt/hgfs/share/object/snake_statio
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/cwchar \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/cwctype \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/debug/debug.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/deque \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/exception \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/alloc_traits.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/atomicity.h \
@@ -441,6 +447,7 @@ CMakeFiles/snake_station.dir/src/main.cpp.o: /mnt/hgfs/share/object/snake_statio
   /mnt/hgfs/share/object/snake_station/inc/point.hpp \
   /mnt/hgfs/share/object/snake_station/inc/rect.hpp \
   /mnt/hgfs/share/object/snake_station/inc/screen.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/snake.hpp \
   /mnt/hgfs/share/object/snake_station/inc/touch.hpp \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/atomic_word.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/c++allocator.h \
@@ -465,6 +472,7 @@ CMakeFiles/snake_station.dir/src/main.cpp.o: /mnt/hgfs/share/object/snake_statio
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/concept_check.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/cpp_type_traits.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/cxxabi_forced.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/deque.tcc \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/exception_defines.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/exception_ptr.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/functexcept.h \
@@ -487,11 +495,14 @@ CMakeFiles/snake_station.dir/src/main.cpp.o: /mnt/hgfs/share/object/snake_statio
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/ptr_traits.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/range_access.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_algobase.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_construct.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_deque.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_function.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_funcs.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_types.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_pair.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_uninitialized.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/streambuf.tcc \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/streambuf_iterator.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stringfwd.h \
@@ -504,6 +515,7 @@ CMakeFiles/snake_station.dir/src/main.cpp.o: /mnt/hgfs/share/object/snake_statio
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/cwchar \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/cwctype \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/debug/debug.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/deque \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/exception \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/alloc_traits.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/atomicity.h \
@@ -899,6 +911,58 @@ CMakeFiles/snake_station.dir/src/screen.cpp.o: /mnt/hgfs/share/object/snake_stat
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.5.0/include/stddef.h \
   /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdint.h
 
+CMakeFiles/snake_station.dir/src/snake.cpp.o: /mnt/hgfs/share/object/snake_station/src/snake.cpp \
+  /mnt/hgfs/share/object/snake_station/inc/color.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/map.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/point.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/rect.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/screen.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/snake.hpp \
+  /mnt/hgfs/share/object/snake_station/inc/touch.hpp \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/c++allocator.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/c++config.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/cpu_defines.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/arm-linux-gnueabi/bits/os_defines.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/alloc_traits.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/allocator.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/atomic_lockfree_defines.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/concept_check.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/cpp_type_traits.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/deque.tcc \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/exception_defines.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/exception_ptr.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/functexcept.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/memoryfwd.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/move.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/nested_exception.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/predefined_ops.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/ptr_traits.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/range_access.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_algobase.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_construct.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_deque.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_funcs.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_types.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_pair.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_uninitialized.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/debug/debug.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/deque \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/exception \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/alloc_traits.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/new_allocator.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/numeric_traits.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/type_traits.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/initializer_list \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/new \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/type_traits \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/features.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
+  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/sys/cdefs.h
+
 CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_station/src/touch.cpp \
   /mnt/hgfs/share/object/snake_station/inc/point.hpp \
   /mnt/hgfs/share/object/snake_station/inc/touch.hpp \
@@ -1086,9 +1150,25 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/ioctls.h:
 
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm/bitsperlong.h:
+
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/ioctl.h:
+
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/int-ll64.h:
+
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/bitsperlong.h:
+
+/mnt/hgfs/share/object/snake_station/src/screen.cpp:
+
+/mnt/hgfs/share/object/snake_station/src/rect.cpp:
+
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/type_traits.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/iosfwd:
+
+/mnt/hgfs/share/object/snake_station/src/point.cpp:
+
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/exception:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/move.h:
 
@@ -1150,6 +1230,8 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ext/numeric_traits.h:
 
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/deque:
+
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/memoryfwd.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
@@ -1179,6 +1261,8 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/waitflags.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/localefwd.h:
+
+/mnt/hgfs/share/object/snake_station/src/snake.cpp:
 
 /mnt/hgfs/share/object/snake_station/inc/point.hpp:
 
@@ -1230,8 +1314,6 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/backward/binders.h:
 
-/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/int-ll64.h:
-
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/postypes.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/locale_classes.tcc:
@@ -1282,8 +1364,6 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ostream:
 
-/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/stdexcept:
-
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/system_error:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/mman-linux.h:
@@ -1324,6 +1404,8 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/predefined_ops.h:
 
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_construct.h:
+
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/fcntl.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.5.0/include/stddef.h:
@@ -1355,6 +1437,8 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/stdlib-float.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_deque.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm/types.h:
 
@@ -1394,10 +1478,6 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/pthread.h:
 
-/mnt/hgfs/share/object/snake_station/src/screen.cpp:
-
-/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/bitsperlong.h:
-
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/bits/time.h:
 
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/sched.h:
@@ -1426,16 +1506,14 @@ CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_stati
 
 /mnt/hgfs/share/object/snake_station/src/game.cpp:
 
-/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/exception:
-
-/mnt/hgfs/share/object/snake_station/src/point.cpp:
-
 /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_iterator_base_funcs.h:
 
 /mnt/hgfs/share/object/snake_station/inc/rect.hpp:
 
-/mnt/hgfs/share/object/snake_station/src/rect.cpp:
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/stdexcept:
 
-/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm/bitsperlong.h:
+/mnt/hgfs/share/object/snake_station/inc/snake.hpp:
 
-/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/libc/usr/include/asm-generic/ioctl.h:
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_uninitialized.h:
+
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/deque.tcc:

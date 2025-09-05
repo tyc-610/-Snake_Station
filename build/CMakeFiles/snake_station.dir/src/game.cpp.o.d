@@ -118,6 +118,12 @@ CMakeFiles/snake_station.dir/src/game.cpp.o: \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/basic_string.tcc \
  /mnt/hgfs/share/object/snake_station/src/../inc/map.hpp \
  /mnt/hgfs/share/object/snake_station/src/../inc/rect.hpp \
+ /mnt/hgfs/share/object/snake_station/src/../inc/snake.hpp \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/deque \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_construct.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_uninitialized.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/stl_deque.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/bits/deque.tcc \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/iostream \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ostream \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.5.0/ios \

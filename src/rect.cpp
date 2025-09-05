@@ -5,6 +5,9 @@ using namespace std;
 #include "point.hpp"
 #include "rect.hpp"
 
+// ¹¹Ôìº¯Êý
+Rect::Rect(int x, int y, int w, int h, Color color):_p(x,y),_w(w),_h(h),_color(color){}
+
 void Rect::draw_rect(Screen &s)
 {
 

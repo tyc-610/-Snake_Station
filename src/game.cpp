@@ -5,7 +5,8 @@ Game::Game():_s(),_te(),_bmp(""),_pos(0,0)
 {
     _s.init();
     cout<<"Game::Game()"<<endl;
-    _map = new Map;
+    _map = new Map(&_s);
+    _snake = new Snake(_map, &_te);
 }
 
 Game::~Game()
@@ -15,7 +16,8 @@ Game::~Game()
 
 void Game::run()
 {
-    _map->draw(_s);
+    _map->draw();
+    _snake->draw();
     cout<<"Game::run()"<<endl;
 }
 

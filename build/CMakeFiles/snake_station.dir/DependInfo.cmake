@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/hgfs/share/object/snake_station/src/point.cpp" "CMakeFiles/snake_station.dir/src/point.cpp.o" "gcc" "CMakeFiles/snake_station.dir/src/point.cpp.o.d"
   "/mnt/hgfs/share/object/snake_station/src/rect.cpp" "CMakeFiles/snake_station.dir/src/rect.cpp.o" "gcc" "CMakeFiles/snake_station.dir/src/rect.cpp.o.d"
   "/mnt/hgfs/share/object/snake_station/src/screen.cpp" "CMakeFiles/snake_station.dir/src/screen.cpp.o" "gcc" "CMakeFiles/snake_station.dir/src/screen.cpp.o.d"
+  "/mnt/hgfs/share/object/snake_station/src/snake.cpp" "CMakeFiles/snake_station.dir/src/snake.cpp.o" "gcc" "CMakeFiles/snake_station.dir/src/snake.cpp.o.d"
   "/mnt/hgfs/share/object/snake_station/src/touch.cpp" "CMakeFiles/snake_station.dir/src/touch.cpp.o" "gcc" "CMakeFiles/snake_station.dir/src/touch.cpp.o.d"
   )
 

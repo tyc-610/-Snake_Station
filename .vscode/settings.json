@@ -43,6 +43,16 @@
         "unordered_map": "cpp",
         "string_view": "cpp",
         "initializer_list": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "charconv": "cpp",
+        "compare": "cpp",
+        "cstdint": "cpp",
+        "exception": "cpp",
+        "memory_resource": "cpp",
+        "concepts": "cpp",
+        "stdexcept": "cpp",
+        "map": "cpp"
     }
 }

@@ -321,6 +321,30 @@ src/screen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake_station.dir/build.make CMakeFiles/snake_station.dir/src/screen.cpp.s
 .PHONY : src/screen.cpp.s
 
+src/snake.o: src/snake.cpp.o
+.PHONY : src/snake.o
+
+# target to build an object file
+src/snake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake_station.dir/build.make CMakeFiles/snake_station.dir/src/snake.cpp.o
+.PHONY : src/snake.cpp.o
+
+src/snake.i: src/snake.cpp.i
+.PHONY : src/snake.i
+
+# target to preprocess a source file
+src/snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake_station.dir/build.make CMakeFiles/snake_station.dir/src/snake.cpp.i
+.PHONY : src/snake.cpp.i
+
+src/snake.s: src/snake.cpp.s
+.PHONY : src/snake.s
+
+# target to generate assembly for a file
+src/snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake_station.dir/build.make CMakeFiles/snake_station.dir/src/snake.cpp.s
+.PHONY : src/snake.cpp.s
+
 src/touch.o: src/touch.cpp.o
 .PHONY : src/touch.o
 
@@ -378,6 +402,9 @@ help:
 	@echo "... src/screen.o"
 	@echo "... src/screen.i"
 	@echo "... src/screen.s"
+	@echo "... src/snake.o"
+	@echo "... src/snake.i"
+	@echo "... src/snake.s"
 	@echo "... src/touch.o"
 	@echo "... src/touch.i"
 	@echo "... src/touch.s"

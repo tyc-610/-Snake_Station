@@ -184,10 +184,24 @@ CMakeFiles/snake_station.dir/src/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake_station.dir/src/screen.cpp.s"
 	/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/share/object/snake_station/src/screen.cpp -o CMakeFiles/snake_station.dir/src/screen.cpp.s
 
+CMakeFiles/snake_station.dir/src/snake.cpp.o: CMakeFiles/snake_station.dir/flags.make
+CMakeFiles/snake_station.dir/src/snake.cpp.o: /mnt/hgfs/share/object/snake_station/src/snake.cpp
+CMakeFiles/snake_station.dir/src/snake.cpp.o: CMakeFiles/snake_station.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/share/object/snake_station/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/snake_station.dir/src/snake.cpp.o"
+	/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake_station.dir/src/snake.cpp.o -MF CMakeFiles/snake_station.dir/src/snake.cpp.o.d -o CMakeFiles/snake_station.dir/src/snake.cpp.o -c /mnt/hgfs/share/object/snake_station/src/snake.cpp
+
+CMakeFiles/snake_station.dir/src/snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake_station.dir/src/snake.cpp.i"
+	/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/share/object/snake_station/src/snake.cpp > CMakeFiles/snake_station.dir/src/snake.cpp.i
+
+CMakeFiles/snake_station.dir/src/snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake_station.dir/src/snake.cpp.s"
+	/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/share/object/snake_station/src/snake.cpp -o CMakeFiles/snake_station.dir/src/snake.cpp.s
+
 CMakeFiles/snake_station.dir/src/touch.cpp.o: CMakeFiles/snake_station.dir/flags.make
 CMakeFiles/snake_station.dir/src/touch.cpp.o: /mnt/hgfs/share/object/snake_station/src/touch.cpp
 CMakeFiles/snake_station.dir/src/touch.cpp.o: CMakeFiles/snake_station.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/share/object/snake_station/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/snake_station.dir/src/touch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/share/object/snake_station/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/snake_station.dir/src/touch.cpp.o"
 	/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake_station.dir/src/touch.cpp.o -MF CMakeFiles/snake_station.dir/src/touch.cpp.o.d -o CMakeFiles/snake_station.dir/src/touch.cpp.o -c /mnt/hgfs/share/object/snake_station/src/touch.cpp
 
 CMakeFiles/snake_station.dir/src/touch.cpp.i: cmake_force
@@ -208,6 +222,7 @@ snake_station_OBJECTS = \
 "CMakeFiles/snake_station.dir/src/point.cpp.o" \
 "CMakeFiles/snake_station.dir/src/rect.cpp.o" \
 "CMakeFiles/snake_station.dir/src/screen.cpp.o" \
+"CMakeFiles/snake_station.dir/src/snake.cpp.o" \
 "CMakeFiles/snake_station.dir/src/touch.cpp.o"
 
 # External object files for target snake_station
@@ -221,10 +236,11 @@ snake_station_EXTERNAL_OBJECTS =
 /mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/src/point.cpp.o
 /mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/src/rect.cpp.o
 /mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/src/screen.cpp.o
+/mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/src/snake.cpp.o
 /mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/src/touch.cpp.o
 /mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/build.make
 /mnt/hgfs/share/object/snake_station/bin/snake_station: CMakeFiles/snake_station.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/hgfs/share/object/snake_station/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable /mnt/hgfs/share/object/snake_station/bin/snake_station"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/hgfs/share/object/snake_station/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /mnt/hgfs/share/object/snake_station/bin/snake_station"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snake_station.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

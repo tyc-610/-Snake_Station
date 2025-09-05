@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/snake_station.dir/src/rect.cpp.o.d"
   "CMakeFiles/snake_station.dir/src/screen.cpp.o"
   "CMakeFiles/snake_station.dir/src/screen.cpp.o.d"
+  "CMakeFiles/snake_station.dir/src/snake.cpp.o"
+  "CMakeFiles/snake_station.dir/src/snake.cpp.o.d"
   "CMakeFiles/snake_station.dir/src/touch.cpp.o"
   "CMakeFiles/snake_station.dir/src/touch.cpp.o.d"
 )

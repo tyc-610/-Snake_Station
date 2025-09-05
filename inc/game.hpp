@@ -6,6 +6,7 @@
 #include "bitmap.hpp"
 #include "point.hpp"
 #include "map.hpp"
+#include "snake.hpp"
 
 #include <iostream>
 using namespace std;
@@ -22,6 +23,7 @@ private:
     Bitmap _bmp;
     Point _pos;
     Map *_map;
+    Snake *_snake;
 };
 
 

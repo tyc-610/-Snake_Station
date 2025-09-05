@@ -14,6 +14,7 @@ private:
     int _h;
     Color _color;
 public:
+    Rect(int x=0, int y=0, int w=0, int h=0, Color color=Color(255,255,255,255));
     void draw_rect(Screen &s);
     void draw_rect(int x, int y, int w, int h, int color, Screen &s);
     void move(int x, int y);
